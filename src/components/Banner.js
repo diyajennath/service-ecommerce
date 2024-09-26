@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-content">
-        <h1 className="banner-title"> E-Commerce Applications</h1>
+        <h1 className="banner-title"> E-COMMERCE APPLICATIONS</h1>
         <div className="banner-details">
           <span>Welcome to Our E-commerce Solutions !<br /> Transform Your Ideas Into Reality </span>
         </div>
