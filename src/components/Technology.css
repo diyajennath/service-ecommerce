@@ -1,13 +1,12 @@
 .circle-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end; 
+  justify-content: center; 
   gap: 20px;
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto; 
-  padding-right: 40px; 
-  margin-bottom: 70px;
+ 
  
 }
 
@@ -67,6 +66,7 @@
 
 @media (max-width: 767px) {
   .circle {
-    flex-basis: calc(50% - 40px);
+    flex-basis: calc(50% - 20px); /* Two circles per row */
+    margin-bottom: 20px;
   }
 }
