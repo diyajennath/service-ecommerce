@@ -1,0 +1,72 @@
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; 
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding-right: 40px; 
+  margin-bottom: 70px;
+ 
+}
+
+.main-heading {
+  text-align: center; 
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+  color: #f94444;
+  margin-top: 120px;
+  letter-spacing: 1.5px;
+  font-family: domaine display, DomaineDisplay;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.circle {
+  width: 150px;
+  height: 250px;
+  border-radius: 50%;
+  background-color:  #232340;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+.circle:hover {
+  transform: scale(1.05); 
+  background-color: #f94444; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.circle h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.circle p {
+  margin: 5px 0 0;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .circle {
+    flex-basis: calc(33.33% - 40px);
+  }
+}
+
+@media (max-width: 767px) {
+  .circle {
+    flex-basis: calc(50% - 40px);
+  }
+}

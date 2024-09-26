@@ -1,0 +1,95 @@
+
+.how-we-work-container {
+  padding: 40px 20px;
+  max-width: 1200px; 
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 12px; 
+  margin-top: 20px;
+  
+  
+}
+
+
+.sections-title {
+  font-size: 2.5rem;
+  color: #f94444;
+  margin-bottom: 40px; 
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: domaine display, DomaineDisplay;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.steps-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  width: 95%;
+  
+
+}
+
+
+.step-box {
+  background-color: #232340;
+  padding: 30px 20px;
+  border-radius: 60px;
+  width: 100%; 
+  color: #fff;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-box:hover {
+  transform: translateY(-10px); 
+}
+
+
+.step-box h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ff00e0; 
+}
+
+.step-box p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+
+.step-box span {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.6;
+  font-size: 1.1rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .step-box {
+    width: 80%; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .step-box {
+    width: 80%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .step-box {
+    width: 94%; 
+    margin-top: 30px;
+  }
+
+  .how-we-work-container {
+    margin-top: 30px;
+  }
+}

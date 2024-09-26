@@ -1,0 +1,97 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background: linear-gradient(135deg, rgb(8, 19, 65), rgb(65, 33, 97));
+  color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.banner-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-details {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(235, 106, 7);
+  font-style: italic;
+  font-family: domaine display, DomaineDisplay;
+  font-weight: 500;
+}
+
+.banner-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 670px;
+  color: aliceblue;
+  text-align: justify;
+}
+
+.banner-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.banner-button:hover {
+  background-color: #0056b3;
+}
+
+.banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner-image img {
+  max-width: 80%;
+  height: auto;
+  filter: brightness(1.2);
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-content {
+    margin-bottom: 30px;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+
+  .banner-details {
+    font-size: 1rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .banner-image img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
